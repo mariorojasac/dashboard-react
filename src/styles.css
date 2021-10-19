@@ -1,0 +1,76 @@
+body {
+  background-color: white;
+  color: white;
+}
+
+.maindiv {
+
+ width: 100vh;
+
+    margin: 0 auto;
+    /* padding: 0 60px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "adiv ratediv revdiv"
+        "visitdiv ";
+    grid-gap: 10px;
+  
+}
+.threediv {
+  width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "adiv ratediv revdiv"
+        "visitdiv ";
+    grid-gap: 10px;
+
+}
+.adiv {
+  background-color: #D3D3D3;
+  height: 200px;
+  padding: 10px;
+}
+
+.ratediv {
+  background-color: #D3D3D3;
+  height: 200px;
+    padding: 10px;
+
+}
+
+.revdiv {
+  background-color: #D3D3D3;
+  height: 200px;
+    padding: 10px;
+
+}
+
+.sidebardiv {
+  background-color: #D3D3D3;
+  width: 10vw;
+    padding: 10px;
+
+}
+
+.visitdiv {
+  background-color: #D3D3D3;
+   grid-column: -4 / 4;
+  grid-row: 2 / 8;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+    padding: 10px;
+
+}
+.chart {
+background-color: #B3B6B7 ;
+width: 80%;
+height: 25vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 4.5vw;
+  margin-bottom: 10px;
+}
